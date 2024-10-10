@@ -1,0 +1,41 @@
+.blog {
+  text-align: start;
+  background-color: #fbfbfb;
+  padding: 50px 60px;
+}
+.blog h1 {
+  font-size: 60px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+.blog p {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.blog-main {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0px;
+  /* align-items: center;
+  justify-content: space-around; */
+}
+.blog-content {
+  padding: 20px 40px;
+}
+.blog-content h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin: 0;
+}
+.blog-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.blog-content p {
+  margin: 0;
+  margin-top: 10px;
+}

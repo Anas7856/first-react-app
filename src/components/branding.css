@@ -1,0 +1,8 @@
+.brand {
+  background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  /* gap: 40px; */
+}

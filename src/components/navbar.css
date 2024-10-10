@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 30px 80px !important;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.navbar .nav-item.active .nav-link {
+  color: blue !important;
+}

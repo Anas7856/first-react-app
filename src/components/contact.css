@@ -1,0 +1,58 @@
+.contact {
+  padding: 50px;
+  text-align: start;
+}
+.contact h1 {
+  font-size: 60px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+  font-weight: 800;
+}
+
+.contact p {
+  font-size: 12px;
+  margin-left: 24px;
+}
+.contact-main {
+  display: flex;
+  padding: 30px 0px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.contact-content {
+  display: flex;
+  flex-direction: column;
+}
+.contact-content h2 {
+  font-size: 28px;
+  margin: 0;
+}
+.contact-content input {
+  width: 500px;
+  height: 40px;
+  background-color: #fbfbfb;
+  border: none;
+  padding: 0px 10px;
+  margin-top: 12px;
+}
+
+.contact-content textarea {
+  height: 200px;
+  width: 500px;
+  padding: 0px 10px;
+  background-color: #fbfbfb;
+  border: none;
+  margin-top: 10px;
+}
+.contact-content button {
+  height: 50px;
+  font-size: 15px;
+  background-color: #ffe600;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  width: 160px;
+}
